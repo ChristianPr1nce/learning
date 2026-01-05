@@ -1,0 +1,12 @@
+.glexbasis {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.glexbasis div { 
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: black solid 1px;
+}
