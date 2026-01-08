@@ -7,9 +7,21 @@
     align-content: center;
 }
 
-.glexbasis div { 
+.glexbasis div {
     width: 200px;
     height: 200px;
     background-color: red;
     border: black solid 1px;
+}
+
+.another-example {
+    width: 1000px;
+    height: 1000px;
+    margin: auto 0;
+    border: black solid 1px;
+    display: flex;
+}
+
+.another-example div {
+    flex: 1;
 }
